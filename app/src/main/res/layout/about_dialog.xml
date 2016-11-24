@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_medium">
+
+    <TextView
+        android:id="@+id/made_by"
+        style="@style/Text.White.Title.Bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_made_by" />
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/Text.White.Title.Bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rating_and_giving_feedback_is_very_appreciated" />
+
+    <TextView
+        android:id="@+id/credits"
+        style="@style/Text.White.Content.Bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_x_large"
+        android:text="@string/logo_credit" />
+</LinearLayout>

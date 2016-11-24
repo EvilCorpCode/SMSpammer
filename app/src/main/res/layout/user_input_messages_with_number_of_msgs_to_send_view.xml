@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/user_input_messages_header_container_include" />
+
+    <RelativeLayout
+        android:id="@+id/number_of_msgs_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_xxxx_gigantic">
+
+        <TextView
+            android:id="@+id/number_of_msgs_label"
+            style="@style/Text.Content.Bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_xxx_small"
+            android:layout_marginRight="@dimen/margin_xxx_small"
+            android:text="@string/number_of_messages" />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/number_of_msgs_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/number_of_msgs_label"
+            android:layout_toRightOf="@id/number_of_msgs_label"
+            android:entries="@array/number_of_messages_arrays"
+            android:prompt="@string/number_of_messages_prompt"
+            android:spinnerMode="dialog" />
+    </RelativeLayout>
+
+    <include layout="@layout/user_input_messages_view_group_include" />
+</LinearLayout>

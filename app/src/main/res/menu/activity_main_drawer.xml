@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_24dp"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_saved_messages"
+            android:icon="@drawable/ic_manage_24dp"
+            android:title="@string/saved_categories" />
+        <item
+            android:id="@+id/nav_add_category"
+            android:icon="@drawable/ic_add_24dp"
+            android:title="@string/add_new_category" />
+        <item
+            android:id="@+id/nav_share"
+            android:checkable="false"
+            android:icon="@drawable/ic_share_24dp"
+            android:title="@string/share" />
+        <item
+            android:id="@+id/nav_open_github_page"
+            android:checkable="false"
+            android:icon="@drawable/ic_thumb_up_24dp"
+            android:title="@string/open_github_page" />
+        <item
+            android:id="@+id/nav_about"
+            android:checkable="false"
+            android:icon="@drawable/ic_about_24dp"
+            android:title="@string/about" />
+    </group>
+    <!--
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share_24dp"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_send_24dp"
+                    android:title="Send" />
+            </menu>
+        </item>
+    -->
+
+</menu>
